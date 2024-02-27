@@ -14,3 +14,4 @@ COPY . /app/
 
 RUN mvn package
 CMD ["java", "-jar", "target/untitledExercise.jar"]
+ENTRYPOINT ["java", "-jar", "target/untitledExercise.jar"]

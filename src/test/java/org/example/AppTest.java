@@ -13,5 +13,7 @@ public class AppTest {
     @Test
     public void addmeTest() { assertEquals(app.addme(12, 20), 32);  }
 
+    @Test
+    public void productmeTest() {assertEquals(app.productme(12, 3), 36);}
 
 }

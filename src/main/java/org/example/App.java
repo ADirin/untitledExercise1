@@ -7,6 +7,7 @@ package org.example;
 public class App 
 {
     public static int addme(int a, int b) {return a+b;}
+    public static int productme(int a, int b) {return a*b;}
 
     public static void main( String[] args )
     {
